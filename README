@@ -1,0 +1,8 @@
+rm -R sistemaacademico
+maven andromdapp:generate
+cp SistemaAcademico.xml sistemaacademico/mda/src/uml/
+cd sistemaacademico
+maven
+maven mda -Dprojeto=sistemaacademico-geral-Curso
+maven mda -Dprojeto=sistemaacademico-geral-Estudante
+maven install deploy
