@@ -17,7 +17,7 @@ Main() {
 	echo "Generate Project Express for Linux ${VERSION} [${PROJECT}]"
 	echo ""
 	echo "Bom dia ${USER}!"
-	echo "Para consultar o resultado do maven verifique o arquivo ${GENERATE_LOG}."
+	echo "Para consultar o resultado da geração verifique o arquivo ${GENERATE_LOG}."
 	echo "Para cancelar o script use \"Ctrl+C\"."
 	echo "---------------------------------------------------------------------"
 
@@ -27,38 +27,90 @@ Main() {
 	fi
 
 	case $1 in
-		"-c")
+		"-g")
 			shift ;
-			CheckModuleCompileList $* ;
-			DoTask compile $* ;;
-		"-d")
-			shift ;
-			CheckModuleCompileList $* ;
-			DoTask deploy $* ;;
-		"-m")
-			shift ;
-			CheckModuleModelList $* ;
-			CodeGenerate $* ;;
-		"-t")
-			shift ;
-			CheckModuleModelList $* ;
-			All $* ;;
-		"-u")
-			shift ;
-			CheckModuleCompileList $* ;
-			DoTask undeploy $* ;;
-		"-a" | "--all")
-			shift ;
-			All "core" "principal" "geral" "nucleo" "listaBrasil" "colecoes" "herbarioVirtual" ;;
+			CheckProjectsList $* ;
+			DoTask generate $* ;;
 		"--clean")
 			shift ;
 			echo "" ;
 			echo "Limpando projeto..." ;
-			maven clean >> "${MAVEX_LOG}" ;;
+			#TASK: Colocar para remover os projetos
+			#maven clean >> "${MAVEX_LOG}" ;
+			;;
 		*)
 			Help ;
 			exit 1 ;;
 	esac
+}
+
+CheckProjectsList() {
+	for module in $*; do
+		case $module in
+			"sistemaacademico") ;;
+			*)
+				Help $module;
+				exit 1;;
+		esac
+	done
+}
+
+DoTask() {
+	task=$1
+	shift
+
+	case $task in
+		"generate")
+			task=0 ;;
+		*) ;;
+	esac
+
+	while [ $# -gt 0 ]; do
+		echo ""
+		if [ $task -eq 0 ]; then
+			echo "Gerando o Projeto: $1"
+		fi
+		echo "Aguarde..."
+
+		case $1 in
+			"sistemaacademico")
+				GenerateProject $task sistemaacademico
+				;;
+			*) ;;
+		esac
+
+		shift
+	done
+}
+
+GenerateProject() {
+	target=$1
+	task=$2
+	module=$3
+
+	echo ""
+	echo ""
+
+	rm -R sistemaacademico;
+	./gen-sistemaacademico.sh;
+	cp models/SistemaAcademico.xml sistemaacademico/mda/src/uml/;
+	cd sistemaacademico;
+	sed -i 's/cartridge.version=3.1.1.3.4.19-RC2/cartridge.version=3.1/g' build.properties;
+	maven;
+	maven mda -Dprojeto=sistemaacademico-geral-Curso;
+	maven mda -Dprojeto=sistemaacademico-geral-Estudante;
+	maven install deploy;
+
+#	cd "${ROOT_DIR}/core/cs/${module}"
+#	if [ $task -eq 0 ]; then
+#		maven ejb:install deploy >> "${MAVEX_LOG}"
+#	elif [ $task -eq 1 ]; then
+#		maven deploy >> "${MAVEX_LOG}"
+#	elif [ $task -eq 2 ]; then
+#		maven undeploy >> "${MAVEX_LOG}"
+#	fi
+#	echo "------ Resultado do maven para ${target} (./core/cs/${module}): $?"
+#	CheckError ${target} "./core/cs/${module}" $?
 }
 
 Help() {
