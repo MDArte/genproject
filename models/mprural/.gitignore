@@ -1,0 +1,15 @@
+/*.log
+/*/target
+/*/*/target
+/*/*/*/target
+
+#Serviços
+/core/cs/maven.xml
+/core/cs/*/maven.xml
+!/core/cs/initial/maven.xml
+
+#Módulo Web
+/web/maven.xml
+/web/*/maven.xml
+!/web/layout/maven.xml
+!/web/help/maven.xml

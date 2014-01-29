@@ -1,2 +1,8 @@
-sistemaacademico/
+/models/xml.zips/
+/sistemaacademico/
+/mprural/
 generate_log.txt
+*.log
+*.log.*
+*.bak
+*.mdr

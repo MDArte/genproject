@@ -48,6 +48,7 @@ CheckProjectsList() {
 	for module in $*; do
 		case $module in
 			"sistemaacademico") ;;
+			"mprural") ;;
 			*)
 				Help $module;
 				exit 1;;
@@ -62,6 +63,8 @@ DoTask() {
 	case $task in
 		"generate")
 			task=0 ;;
+		"mprural")
+			task=0 ;;
 		*) ;;
 	esac
 
@@ -74,7 +77,10 @@ DoTask() {
 
 		case $1 in
 			"sistemaacademico")
-				GenerateProject $task sistemaacademico
+				GenerateSistemaAcademico $task sistemaacademico
+				;;
+			"mprural")
+				GenerateMPRual $task mprural
 				;;
 			*) ;;
 		esac
@@ -83,7 +89,25 @@ DoTask() {
 	done
 }
 
-GenerateProject() {
+GenerateMPRual() {
+	target=$1
+	task=$2
+	module=$3
+
+	echo ""
+	echo ""
+
+	rm -R mprural;
+	./gen-mprural.sh;
+	cp models/MPRural.xml mprural/mda/src/uml/;
+	cd mprural;
+	sed -i 's/cartridge.version=3.1.1.3.4.19-RC2/cartridge.version=3.1/g' build.properties;
+	maven;
+	cp -R ../models/mprural ../;
+	maven install deploy;
+}
+
+GenerateSistemaAcademico() {
 	target=$1
 	task=$2
 	module=$3
@@ -97,8 +121,8 @@ GenerateProject() {
 	cd sistemaacademico;
 	sed -i 's/cartridge.version=3.1.1.3.4.19-RC2/cartridge.version=3.1/g' build.properties;
 	maven;
-	maven mda -Dprojeto=sistemaacademico-geral-Curso;
 	maven mda -Dprojeto=sistemaacademico-geral-Estudante;
+	maven mda -Dprojeto=sistemaacademico-geral-Disciplina;
 	maven install deploy;
 
 #	cd "${ROOT_DIR}/core/cs/${module}"
