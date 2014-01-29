@@ -102,7 +102,6 @@ GenerateMPRual() {
 	cp models/MPRural.xml mprural/mda/src/uml/;
 	cd mprural;
 	sed -i 's/cartridge.version=3.1.1.3.4.19-RC2/cartridge.version=3.1/g' build.properties;
-	maven;
 	cp -R ../models/mprural ../;
 	maven install deploy;
 }
