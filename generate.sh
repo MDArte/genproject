@@ -101,7 +101,7 @@ GenerateMPRual() {
 	./gen-mprural.sh;
 	cp models/MPRural.xml mprural/mda/src/uml/;
 	cd mprural;
-	sed -i 's/cartridge.version=3.1.1.3.4.19-RC2/cartridge.version=3.1/g' build.properties;
+	sed -i 's/cartridge.version=3.1.1.3.4.19-RC3/cartridge.version=3.1/g' build.properties;
 	cp -R ../models/mprural ../;
 	maven install deploy;
 }
@@ -118,7 +118,7 @@ GenerateSistemaAcademico() {
 	./gen-sistemaacademico.sh;
 	cp models/SistemaAcademico.xml sistemaacademico/mda/src/uml/;
 	cd sistemaacademico;
-	sed -i 's/cartridge.version=3.1.1.3.4.19-RC2/cartridge.version=3.1/g' build.properties;
+	sed -i 's/cartridge.version=3.1.1.3.4.19-RC3/cartridge.version=3.1/g' build.properties;
 	maven;
 	maven mda -Dprojeto=sistemaacademico-geral-Estudante;
 	maven mda -Dprojeto=sistemaacademico-geral-Disciplina;
