@@ -17,7 +17,10 @@ package br.ufrrj.maratona.cd;
  */
 import org.hibernate.Criteria;
 import org.hibernate.Session;
+import org.hibernate.criterion.MatchMode;
+import org.hibernate.criterion.Restrictions;
 
+import sun.nio.cs.ext.MacHebrew;
 import br.ufrj.coppetec.DataObject;
 import br.ufrrj.maratona.vo.ProblemaVO;
  
@@ -30,7 +33,19 @@ public class ProblemaDAOImpl extends ProblemaDAO
 		
 		if(vo instanceof ProblemaVO)
 		{
+			ProblemaVO problemaVO = (ProblemaVO) vo;
 			
+			if(problemaVO.getUrl() != null)
+			{
+				if(problemaVO.getUrlEquals() == null || !problemaVO.getUrlEquals())
+				{
+					criterios.add(Restrictions.like("url", problemaVO.getUrl(), MatchMode.ANYWHERE));
+				}
+				else
+				{
+					criterios.add(Restrictions.eq("url", problemaVO.getUrl()));
+				}
+			}
 		}
 
 		return criterios;

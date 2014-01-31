@@ -11,6 +11,7 @@ import br.ufrrj.maratona.action.FilterAction;
 import br.ufrrj.maratona.cd.Problema;
 import br.ufrrj.maratona.cd.ProblemaImpl;
 import br.ufrrj.maratona.vo.ProblemaVO;
+import br.ufrrj.maratona.vo.ResolucaoVO;
 
 /**
  * @see br.ufrrj.maratona.web.maratona.adicionarResolucao.AdicionaResolucaoControle
@@ -27,6 +28,15 @@ public class AdicionaResolucaoControleImpl extends AdicionaResolucaoControle
 
 	public void adicionaResolucao(AdicionaResolucaoForm form, ViewContainer container) throws Exception
 	{
+		ResolucaoVO resolucaoVO = new ResolucaoVO();
+		resolucaoVO.setData(form.getDataAsDate());
+		resolucaoVO.setDificuldade(form.getDificuldadeAsEnumeration());
+		
+		ProblemaVO problemaVO = new ProblemaVO();
+		problemaVO.setUrl(form.getUrl());
+		resolucaoVO.setProblemaVO(problemaVO);
+		
+		ServiceLocator.instance().getMaratonaHandlerBI().incluirResolucao(form.getIdAluno(), resolucaoVO);
 		form.setIdResolucao(1l);
 		saveSuccessMessage("adiciona.resolucao.uc.adiciona.resolucao.adicionar.sucesso", container);
 	}	
@@ -35,6 +45,7 @@ public class AdicionaResolucaoControleImpl extends AdicionaResolucaoControle
 	{
 		ProblemaVO problemaVO = new ProblemaVO();
 		problemaVO.setUrl(query);
+		problemaVO.setUrlEquals(false);
 		
 		Collection problemas = ServiceLocator.instance().getMaratonaHandlerBI().filterProblema(new ProblemaImpl(), new FilterAction(problemaVO, null));
 		
