@@ -13,13 +13,14 @@ import br.ufrrj.maratona.cd.ProblemaImpl;
 import br.ufrrj.maratona.cd.Resolucao;
 import br.ufrrj.maratona.eo.DificuldadeProblema;
 import br.ufrrj.maratona.vo.ProblemaVO;
+import br.ufrrj.maratona.vo.ResolucaoVO;
 
 /**
  * @see br.ufrrj.maratona.cs.maratona.MaratonaHandler
  */
 public class MaratonaHandlerBeanImpl extends MaratonaHandlerBean implements MaratonaHandler, MaratonaHandlerLocal
 {
-	public Resolucao handleIncluirResolucao(Long idAluno, ProblemaVO problemaVO)
+	public Resolucao handleIncluirResolucao(Long idAluno, ResolucaoVO resolucaoVO)
 	{
 		Aluno aluno = new AlunoImpl();
     	aluno.setId(idAluno);
