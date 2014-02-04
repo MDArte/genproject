@@ -11,6 +11,7 @@ import br.ufrrj.maratona.cd.AlunoImpl;
 import br.ufrrj.maratona.cd.Problema;
 import br.ufrrj.maratona.cd.ProblemaImpl;
 import br.ufrrj.maratona.cd.Resolucao;
+import br.ufrrj.maratona.cd.ResolucaoImpl;
 import br.ufrrj.maratona.eo.CategoriaProblema;
 import br.ufrrj.maratona.vo.ProblemaVO;
 import br.ufrrj.maratona.vo.ResolucaoVO;
@@ -28,33 +29,54 @@ public class MaratonaHandlerBeanImpl extends MaratonaHandlerBean implements Mara
     	Collection alunos = new ArrayList();
 
     	try
-		{
-			alunos = ServiceLocator.instance().getMaratonaHandlerBI().selectAluno(aluno);
-		}
-		catch (Exception exception)
-		{
-			exception.printStackTrace();
-		}
+    	{
+    		alunos = ServiceLocator.instance().getMaratonaHandlerBI().selectAluno(aluno);
+    	}
+    	catch (Exception exception)
+    	{
+    		throw new MaratonaException("matatona.handler.incluir.resolucao.encontrar.aluno", exception);
+    	}
     	
     	if(alunos != null && !alunos.isEmpty())
     		aluno = (Aluno) alunos.iterator().next();
     	
     	Problema problema = incluirProblema(resolucaoVO.getProblemaVO());
     	
-    	((AlunoImpl) aluno).adicionarProblema(problema, resolucaoVO.getData(), "", resolucaoVO.getDificuldade());
+    	((AlunoImpl) aluno).adicionarProblema(problema, resolucaoVO.getData(), resolucaoVO.getCodigo(), resolucaoVO.getDificuldade());
     	
     	try
     	{
-			alunos = ServiceLocator.instance().getMaratonaHandlerBI().updateAluno(aluno);
-		}
+    		alunos = ServiceLocator.instance().getMaratonaHandlerBI().updateAluno(aluno);
+    	}
     	catch (Exception exception)
     	{
-			exception.printStackTrace();
-		}
+    		throw new MaratonaException("matatona.handler.incluir.resolucao.inserir.resolucao", exception);
+    	}
     	
-		return null;
+    	if(alunos == null || (alunos != null && alunos.isEmpty()))
+		{
+    		throw new MaratonaException("matatona.handler.incluir.resolucao.inserir.resolucao");
+    	}
+    	
+    	aluno = (Aluno) alunos.iterator().next();
+    	
+    	Resolucao resolucao = new ResolucaoImpl();
+    	
+    	for(Resolucao resolucaoProblema:(Collection<Resolucao>) aluno.getResolucaos())
+    	{
+    		if(resolucaoProblema.getData().compareTo(resolucaoVO.getData()) == 0 && resolucaoProblema.getCodigo().equals(resolucaoVO.getCodigo()))
+    		{
+	    		if(resolucaoProblema.getProblema().getId().equals(problema.getId()))
+	    		{
+	    			resolucao = resolucaoProblema;
+	    			break;
+	    		}
+    		}
+    	}
+    	
+		return resolucao;
 	}
-
+	
 	public Problema handleIncluirProblema(ProblemaVO problemaVO) throws MaratonaException
 	{
 		/*
@@ -72,14 +94,14 @@ public class MaratonaHandlerBeanImpl extends MaratonaHandlerBean implements Mara
 		}
 		catch (Exception exception)
 		{
-			exception.printStackTrace();
-			return null;
+			throw new MaratonaException("matatona.handler.incluir.problema.encontrar.problema", exception);
 		}
 
 		/*
 		 * Cria Novo Problema
 		 */
-		if(problemas == null || problemas != null && problemas.isEmpty())
+
+		if(problemas == null || (problemas != null && problemas.isEmpty()))
 		{
 			Problema problema = new ProblemaImpl();
 			problema.setUrl(problemaVO.getUrl());
@@ -91,16 +113,16 @@ public class MaratonaHandlerBeanImpl extends MaratonaHandlerBean implements Mara
 			}
 			catch (Exception exception)
 			{
-				exception.printStackTrace();
-				return null;
+				throw new MaratonaException("matatona.handler.incluir.problema.inserir.problema", exception);
 			}
 		}
 		
-		if(problemas != null && !problemas.isEmpty())
+		if(problemas == null || (problemas != null && problemas.isEmpty()))
 		{
-			return (Problema) problemas.iterator().next();
-		}		
+			throw new MaratonaException("matatona.handler.incluir.problema.inserir.problema");
+		}
 		
-		return null;
+		return (Problema) problemas.iterator().next();
 	}
 }
+

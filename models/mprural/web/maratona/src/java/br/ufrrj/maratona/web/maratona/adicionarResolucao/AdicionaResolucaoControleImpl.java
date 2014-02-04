@@ -10,6 +10,7 @@ import br.ufrrj.maratona.ServiceLocator;
 import br.ufrrj.maratona.action.FilterAction;
 import br.ufrrj.maratona.cd.Problema;
 import br.ufrrj.maratona.cd.ProblemaImpl;
+import br.ufrrj.maratona.cd.Resolucao;
 import br.ufrrj.maratona.vo.ProblemaVO;
 import br.ufrrj.maratona.vo.ResolucaoVO;
 
@@ -31,13 +32,15 @@ public class AdicionaResolucaoControleImpl extends AdicionaResolucaoControle
 		ResolucaoVO resolucaoVO = new ResolucaoVO();
 		resolucaoVO.setData(form.getDataAsDate());
 		resolucaoVO.setDificuldade(form.getDificuldadeAsEnumeration());
+		resolucaoVO.setCodigo(form.getResolucao());
 		
 		ProblemaVO problemaVO = new ProblemaVO();
 		problemaVO.setUrl(form.getUrl());
 		resolucaoVO.setProblemaVO(problemaVO);
 		
-		ServiceLocator.instance().getMaratonaHandlerBI().incluirResolucao(form.getIdAluno(), resolucaoVO);
-		form.setIdResolucao(1l);
+		Resolucao resolucao = ServiceLocator.instance().getMaratonaHandlerBI().incluirResolucao(form.getIdAluno(), resolucaoVO);
+		form.setIdResolucao(resolucao.getId());
+		
 		saveSuccessMessage("adiciona.resolucao.uc.adiciona.resolucao.adicionar.sucesso", container);
 	}	
 
@@ -62,5 +65,6 @@ public class AdicionaResolucaoControleImpl extends AdicionaResolucaoControle
 		return urls;
 	}
 }
+
 
 
