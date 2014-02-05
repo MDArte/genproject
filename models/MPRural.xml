@@ -3,7 +3,7 @@
 <!-- This xmi file is optimized for MagicDraw UML. Some references are not saved. -->
 <!-- Change MagicDraw UML environment options property General->.Save Rich XMI -->
 
-<XMI xmi.version='1.2' timestamp='Tue Feb 04 13:48:46 BRST 2014' xmlns:UML='omg.org/UML/1.4'>
+<XMI xmi.version='1.2' timestamp='Wed Feb 05 17:09:52 BRST 2014' xmlns:UML='omg.org/UML/1.4'>
 	<XMI.header>
 		<XMI.documentation>
 			<XMI.exporter>MagicDraw UML</XMI.exporter>
@@ -502,9 +502,6 @@
 														<UML:Attribute xmi.id='_9_5_1_1ff104dd_1391189788437_226858_112' name='problemaVO' visibility='public' type='_9_5_1_1ff104dd_1390408521307_257696_1464'/>
 														<UML:Attribute xmi.id='_9_5_1_1ff104dd_1391191703643_711945_106' name='dificuldade' visibility='public' type='_9_5_1_1ff104dd_1390564906839_988358_81'/>
 														<UML:Attribute xmi.id='_9_5_1_1ff104dd_1391528914428_67343_30' name='codigo' visibility='public'>
-															<UML:Attribute.initialValue>
-																<UML:Expression xmi.id='_9_5_1_1ff104dd_1391528926716_953068_31'/>
-															</UML:Attribute.initialValue>
 															<UML:StructuralFeature.type>
 																<UML:Classifier href='andromda-profile-datatype-3.1.xml.zip|_9_0_1fe00f9_1119336925531_364079_66'>
 																	<XMI.extension xmi.extender='MagicDraw UML 9.5' xmi.extenderID='MagicDraw UML 9.5'>
@@ -1396,7 +1393,7 @@
 																						</UML:Classifier>
 																					</UML:Parameter.type>
 																					<UML:ModelElement.taggedValue>
-																						<UML:TaggedValue xmi.id='_9_5_1_1ff104dd_1390568165975_930558_502' name='@andromda.presentation.web.view.field.type'>
+																						<UML:TaggedValue xmi.id='_9_5_1_1ff104dd_1391625995103_628930_88' name='@andromda.presentation.web.view.field.type'>
 																							<UML:TaggedValue.dataValue></UML:TaggedValue.dataValue>
 																							<UML:TaggedValue.type>
 																								<UML:TagDefinition href='andromda-profile-presentation-3.1.xml.zip|_9_0_1fe00f9_1119337248937_175825_53'>
@@ -1717,7 +1714,7 @@
 					<elementID xmi.idref='_9_5_1_1ff104dd_1390397155107_542928_754'/>
 					<zoomFactor xmi.value='1.0'/>
 					<diagramOpened xmi.value='true'/>
-					<diagramWindowBounds>0, 0, 919, 872</diagramWindowBounds>
+					<diagramWindowBounds>0, 0, 867, 872</diagramWindowBounds>
 					<diagramScrollPositionX xmi.value='0'/>
 					<diagramScrollPositionY xmi.value='0'/>
 					<maximized xmi.value='true'/>
@@ -1870,7 +1867,7 @@
 					<elementID xmi.idref='_9_5_1_1ff104dd_1390400273812_674091_1274'/>
 					<zoomFactor xmi.value='1.0'/>
 					<diagramOpened xmi.value='true'/>
-					<diagramWindowBounds>0, 0, 919, 872</diagramWindowBounds>
+					<diagramWindowBounds>0, 0, 867, 872</diagramWindowBounds>
 					<diagramScrollPositionX xmi.value='0'/>
 					<diagramScrollPositionY xmi.value='0'/>
 					<maximized xmi.value='true'/>
@@ -2064,11 +2061,11 @@
 					<elementID xmi.idref='_9_5_1_1ff104dd_1390566557762_909561_378'/>
 					<zoomFactor xmi.value='1.0'/>
 					<diagramOpened xmi.value='true'/>
-					<diagramWindowBounds>0, 0, 919, 872</diagramWindowBounds>
+					<diagramWindowBounds>0, 0, 867, 872</diagramWindowBounds>
 					<diagramScrollPositionX xmi.value='0'/>
 					<diagramScrollPositionY xmi.value='0'/>
 					<maximized xmi.value='true'/>
-					<active xmi.value='false'/>
+					<active xmi.value='true'/>
 					<mdOwnedViews>
 						<mdElement elementClass='PseudoStateView' xmi.id='_9_5_1_1ff104dd_1390566571603_628243_382'>
 							<elementID xmi.idref='_9_5_1_1ff104dd_1390566571602_654900_381'/>
@@ -2218,7 +2215,7 @@
 					<elementID xmi.idref='_9_5_1_1ff104dd_1390566245198_58831_284'/>
 					<zoomFactor xmi.value='1.0'/>
 					<diagramOpened xmi.value='true'/>
-					<diagramWindowBounds>0, 0, 919, 872</diagramWindowBounds>
+					<diagramWindowBounds>0, 0, 867, 872</diagramWindowBounds>
 					<diagramScrollPositionX xmi.value='0'/>
 					<diagramScrollPositionY xmi.value='90'/>
 					<maximized xmi.value='true'/>
@@ -2461,11 +2458,11 @@
 					<elementID xmi.idref='_9_5_1_1ff104dd_1390396408132_301408_8'/>
 					<zoomFactor xmi.value='1.0'/>
 					<diagramOpened xmi.value='true'/>
-					<diagramWindowBounds>0, 0, 919, 872</diagramWindowBounds>
+					<diagramWindowBounds>0, 0, 867, 872</diagramWindowBounds>
 					<diagramScrollPositionX xmi.value='0'/>
 					<diagramScrollPositionY xmi.value='30'/>
 					<maximized xmi.value='true'/>
-					<active xmi.value='true'/>
+					<active xmi.value='false'/>
 					<mdOwnedViews>
 						<mdElement elementClass='ClassView' xmi.id='_9_5_1_1ff104dd_1390396427299_717669_119'>
 							<elementID xmi.idref='_9_5_1_1ff104dd_1390396414973_37044_45'/>
@@ -2719,7 +2716,7 @@
 					<elementID xmi.idref='_9_5_1_1ff104dd_1390396915959_261501_548'/>
 					<zoomFactor xmi.value='1.0'/>
 					<diagramOpened xmi.value='true'/>
-					<diagramWindowBounds>0, 0, 919, 872</diagramWindowBounds>
+					<diagramWindowBounds>0, 0, 867, 872</diagramWindowBounds>
 					<diagramScrollPositionX xmi.value='0'/>
 					<diagramScrollPositionY xmi.value='0'/>
 					<maximized xmi.value='true'/>
@@ -2945,7 +2942,7 @@
 				<default xmi.value='false'/>
 				<mdElement elementClass='PropertyManager'>
 					<name>PROJECT_GENERAL_PROPERTIES</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926742_990937_32</propertyManagerID>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796386_153271_0</propertyManagerID>
 					<mdElement elementClass='ModelElementProperty'>
 						<propertyID>DEFAULT_PROFILE_PACKAGE</propertyID>
 						<displayableTypes xmi.value='ModelPackage^Model^Subsystem'/>
@@ -2978,7 +2975,7 @@
 				</mdElement>
 				<mdElement elementClass='PropertyManager'>
 					<name>PROJECT_INVISIBLE_PROPERTIES</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926743_578370_33</propertyManagerID>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796386_880944_1</propertyManagerID>
 					<mdElement elementClass='NumberProperty'>
 						<propertyID>TOOL_TIP_STYLE</propertyID>
 						<propertyDescriptionID>TOOL_TIP_STYLE_DESCRIPTION</propertyDescriptionID>
@@ -3028,7 +3025,7 @@
 					<mdElement elementClass='StringProperty'>
 						<propertyID>BROWSER_LAYOUT</propertyID>
 						<propertyDescriptionID>BROWSER_LAYOUT_DESCRIPTION</propertyDescriptionID>
-						<value>0 13 0 0 0 31 0 0 0 18 0 0 4 ef bf bd 0 0 3 ef bf bd 0 0 0 6 0 0 0 9 0 0 0 f 0 4d 0 45 0 53 0 53 0 41 0 47 0 45 0 53 0 5f 0 57 0 49 0 4e 0 44 0 4f 0 57 0 0 79 ef bf bd 0 0 0 2 0 0 0 0 0 0 0 1 0 0 0 f 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 79 ef bf bd 0 0 0 0 0 0 0 3c 0 0 0 3c 0 0 0 ef bf bd 0 0 0 ef bf bd 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 f 0 45 0 58 0 54 0 45 0 4e 0 53 0 49 0 4f 0 4e 0 53 0 5f 0 54 0 52 0 45 0 45 0 0 ef bf bd ef bf bd 0 0 0 8 0 0 0 0 0 0 0 1 0 0 0 f 0 0 0 4 0 0 0 4 0 0 0 8 0 0 1 34 0 0 1 ef bf bd 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 4 0 0 ef bf bd ef bf bd 0 0 0 2 0 0 0 0 0 0 0 0 0 0 4 ef bf bd 0 0 3 7f 0 0 0 8 0 0 0 0 0 0 ef bf bd 74 0 0 0 5 0 0 6a ef bf bd 0 0 3f ef bf bd 0 0 43 3e 0 0 ef bf bd ef bf bd 0 0 76 49 0 0 0 2 0 0 1a 76 0 0 ef bf bd 74 0 0 0 0 0 0 0 2 0 0 ef bf bd 74 0 0 ef bf bd 7c 0 0 ef bf bd ef bf bd 0 0 1a 76 0 0 0 1 0 0 0 2 0 0 1a 76 ef bf bd ef bf bd ef bf bd ef bf bd 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 d 0 44 0 49 0 41 0 47 0 52 0 41 0 4d 0 53 0 5f 0 54 0 52 0 45 0 45 0 0 43 3e 0 0 0 8 0 0 0 0 0 0 0 1 0 0 0 f 0 0 0 4 0 0 0 4 0 0 0 8 0 0 1 34 0 0 1 ef bf bd 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 4 0 0 43 3e 0 0 0 2 0 0 0 0 0 0 0 0 0 0 4 ef bf bd 0 0 3 7f 0 0 0 8 0 0 0 0 0 0 ef bf bd 74 0 0 0 5 0 0 6a ef bf bd 0 0 3f ef bf bd 0 0 43 3e 0 0 ef bf bd ef bf bd 0 0 76 49 0 0 0 2 0 0 1a 76 0 0 ef bf bd 74 0 0 0 0 0 0 0 2 0 0 ef bf bd 74 0 0 ef bf bd 7c 0 0 ef bf bd ef bf bd 0 0 1a 76 0 0 0 1 0 0 0 2 0 0 1a 76 ef bf bd ef bf bd ef bf bd ef bf bd 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 a 0 50 0 52 0 4f 0 50 0 45 0 52 0 54 0 49 0 45 0 53 0 0 ef bf bd ef bf bd 0 0 0 8 0 0 0 1 0 0 0 1 0 0 0 f 0 0 0 4 0 0 0 4 0 0 0 8 0 0 1 34 0 0 1 ef bf bd 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 4 0 0 ef bf bd ef bf bd 0 0 0 2 0 0 0 0 0 0 0 0 0 0 4 ef bf bd 0 0 3 7f 0 0 0 8 0 0 0 0 0 0 ef bf bd 7c 0 0 0 3 0 0 56 ef bf bd 0 0 4d 66 0 0 ef bf bd ef bf bd 0 0 0 2 0 0 1a 76 0 0 ef bf bd 7c 0 0 0 0 0 0 0 2 0 0 ef bf bd 74 0 0 ef bf bd 7c 0 0 ef bf bd ef bf bd 0 0 1a 76 0 0 0 1 0 0 0 2 0 0 1a 76 ef bf bd ef bf bd ef bf bd ef bf bd 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 d 0 44 0 4f 0 43 0 55 0 4d 0 45 0 4e 0 54 0 41 0 54 0 49 0 4f 0 4e 0 0 4d 66 0 0 0 8 0 0 0 1 0 0 0 1 0 0 0 f 0 0 0 4 0 0 0 4 0 0 0 8 0 0 1 34 0 0 1 ef bf bd 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 4 0 0 4d 66 0 0 0 2 0 0 0 0 0 0 0 0 0 0 4 ef bf bd 0 0 3 7f 0 0 0 8 0 0 0 0 0 0 ef bf bd 7c 0 0 0 3 0 0 56 ef bf bd 0 0 4d 66 0 0 ef bf bd ef bf bd 0 0 0 2 0 0 1a 76 0 0 ef bf bd 7c 0 0 0 0 0 0 0 2 0 0 ef bf bd 74 0 0 ef bf bd 7c 0 0 ef bf bd ef bf bd 0 0 1a 76 0 0 0 1 0 0 0 2 0 0 1a 76 ef bf bd ef bf bd ef bf bd ef bf bd 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 c 0 5a 0 4f 0 4f 0 4d 0 5f 0 43 0 4f 0 4e 0 54 0 52 0 4f 0 4c 0 0 56 ef bf bd 0 0 0 8 0 0 0 1 0 0 0 1 0 0 0 f 0 0 0 4 0 0 0 4 0 0 0 8 0 0 1 34 0 0 1 ef bf bd 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 4 0 0 56 ef bf bd 0 0 0 2 0 0 0 0 0 0 0 0 0 0 4 ef bf bd 0 0 3 7f 0 0 0 8 0 0 0 0 0 0 ef bf bd 7c 0 0 0 3 0 0 56 ef bf bd 0 0 4d 66 0 0 ef bf bd ef bf bd 0 0 0 2 0 0 1a 76 0 0 ef bf bd 7c 0 0 0 0 0 0 0 2 0 0 ef bf bd 74 0 0 ef bf bd 7c 0 0 ef bf bd ef bf bd 0 0 1a 76 0 0 0 1 0 0 0 2 0 0 1a 76 ef bf bd ef bf bd ef bf bd ef bf bd 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13 0 53 0 45 0 41 0 52 0 43 0 48 0 5f 0 52 0 45 0 53 0 55 0 4c 0 54 0 53 0 5f 0 54 0 52 0 45 0 45 0 0 76 49 0 0 0 8 0 0 0 0 0 0 0 1 0 0 0 f 0 0 0 4 0 0 0 4 0 0 0 8 0 0 1 34 0 0 1 ef bf bd 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 4 0 0 76 49 0 0 0 2 0 0 0 0 0 0 0 0 0 0 4 ef bf bd 0 0 3 7f 0 0 0 8 0 0 0 0 0 0 ef bf bd 74 0 0 0 5 0 0 6a ef bf bd 0 0 3f ef bf bd 0 0 43 3e 0 0 ef bf bd ef bf bd 0 0 76 49 0 0 0 2 0 0 1a 76 0 0 ef bf bd 74 0 0 0 0 0 0 0 2 0 0 ef bf bd 74 0 0 ef bf bd 7c 0 0 ef bf bd ef bf bd 0 0 1a 76 0 0 0 1 0 0 0 2 0 0 1a 76 ef bf bd ef bf bd ef bf bd ef bf bd 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 0 43 0 4f 0 4e 0 54 0 41 0 49 0 4e 0 4d 0 45 0 4e 0 54 0 5f 0 54 0 52 0 45 0 45 0 0 6a ef bf bd 0 0 0 8 0 0 0 0 0 0 0 1 0 0 0 f 0 0 0 4 0 0 0 4 0 0 0 8 0 0 1 34 0 0 1 ef bf bd 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 4 0 0 6a ef bf bd 0 0 0 2 0 0 0 0 0 0 0 0 0 0 4 ef bf bd 0 0 3 7f 0 0 0 8 0 0 0 0 0 0 ef bf bd 74 0 0 0 5 0 0 6a ef bf bd 0 0 3f ef bf bd 0 0 43 3e 0 0 ef bf bd ef bf bd 0 0 76 49 0 0 0 2 0 0 1a 76 0 0 ef bf bd 74 0 0 0 0 0 0 0 2 0 0 ef bf bd 74 0 0 ef bf bd 7c 0 0 ef bf bd ef bf bd 0 0 1a 76 0 0 0 1 0 0 0 2 0 0 1a 76 ef bf bd ef bf bd ef bf bd ef bf bd 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 0 49 0 4e 0 48 0 45 0 52 0 49 0 54 0 41 0 4e 0 43 0 45 0 5f 0 54 0 52 0 45 0 45 0 0 3f ef bf bd 0 0 0 8 0 0 0 0 0 0 0 1 0 0 0 f 0 0 0 4 0 0 0 4 0 0 0 8 0 0 1 34 0 0 1 ef bf bd 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 4 0 0 3f ef bf bd 0 0 0 2 0 0 0 0 0 0 0 0 0 0 4 ef bf bd 0 0 3 7f 0 0 0 8 0 0 0 0 0 0 ef bf bd 74 0 0 0 5 0 0 6a ef bf bd 0 0 3f ef bf bd 0 0 43 3e 0 0 ef bf bd ef bf bd 0 0 76 49 0 0 0 2 0 0 1a 76 0 0 ef bf bd 74 0 0 0 0 0 0 0 2 0 0 ef bf bd 74 0 0 ef bf bd 7c 0 0 ef bf bd ef bf bd 0 0 1a 76 0 0 0 1 0 0 0 2 0 0 1a 76 ef bf bd ef bf bd ef bf bd ef bf bd 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 63 0 0 0 0 0 0 66 52 0 0 0 1 0 0 4 63 0 0 0 1 0 0 ef bf bd ef bf bd 0 0 0 2 0 0 4 63 0 0 0 0 0 0 1a 76 0 0 0 2 0 0 4 64 0 0 ef bf bd 74 0 0 0 5 0 0 4 65 0 0 0 10 0 43 0 4f 0 4e 0 54 0 41 0 49 0 4e 0 4d 0 45 0 4e 0 54 0 5f 0 54 0 52 0 45 0 45 0 0 4 65 0 0 0 10 0 49 0 4e 0 48 0 45 0 52 0 49 0 54 0 41 0 4e 0 43 0 45 0 5f 0 54 0 52 0 45 0 45 0 0 4 65 0 0 0 d 0 44 0 49 0 41 0 47 0 52 0 41 0 4d 0 53 0 5f 0 54 0 52 0 45 0 45 0 0 4 65 0 0 0 f 0 45 0 58 0 54 0 45 0 4e 0 53 0 49 0 4f 0 4e 0 53 0 5f 0 54 0 52 0 45 0 45 0 0 4 65 0 0 0 13 0 53 0 45 0 41 0 52 0 43 0 48 0 5f 0 52 0 45 0 53 0 55 0 4c 0 54 0 53 0 5f 0 54 0 52 0 45 0 45 0 0 1 34 0 0 1 33 0 0 0 0 0 0 4 64 0 0 ef bf bd 7c 0 0 0 3 0 0 4 65 0 0 0 c 0 5a 0 4f 0 4f 0 4d 0 5f 0 43 0 4f 0 4e 0 54 0 52 0 4f 0 4c 0 0 4 65 0 0 0 d 0 44 0 4f 0 43 0 55 0 4d 0 45 0 4e 0 54 0 41 0 54 0 49 0 4f 0 4e 0 0 4 65 0 0 0 a 0 50 0 52 0 4f 0 50 0 45 0 52 0 54 0 49 0 45 0 53 0 0 1 34 0 0 1 33 0 0 0 0 0 0 1 34 0 0 2 6a 0 0 4 66 0 0 0 1 0 0 0 18 0 0 0 0 0 0 1 39 0 0 2 6a 0 0 1 39 0 0 2 6a 0 0 0 3 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 f 0 4d 0 45 0 53 0 53 0 41 0 47 0 45 0 53 0 5f 0 57 0 49 0 4e 0 44 0 4f 0 57 </value>
+						<value>0 13 0 0 0 31 0 0 0 18 0 0 5 ef bf bd 0 0 4 ef bf bd 0 0 0 6 0 0 0 9 0 0 0 f 0 4d 0 45 0 53 0 53 0 41 0 47 0 45 0 53 0 5f 0 57 0 49 0 4e 0 44 0 4f 0 57 0 0 ef bf bd ef bf bd 0 0 0 2 0 0 0 0 0 0 0 1 0 0 0 f 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 ef bf bd ef bf bd 0 0 0 0 0 0 0 3c 0 0 0 3c 0 0 0 ef bf bd 0 0 0 ef bf bd 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 f 0 45 0 58 0 54 0 45 0 4e 0 53 0 49 0 4f 0 4e 0 53 0 5f 0 54 0 52 0 45 0 45 0 0 ef bf bd 58 0 0 0 8 0 0 0 0 0 0 0 1 0 0 0 f 0 0 0 4 0 0 0 4 0 0 0 8 0 0 1 68 0 0 1 ef bf bd 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 4 0 0 ef bf bd 58 0 0 0 2 0 0 0 0 0 0 0 0 0 0 4 ef bf bd 0 0 3 7f 0 0 0 8 0 0 0 0 0 0 65 7e 0 0 0 5 0 0 4 2a 0 0 ef bf bd 36 0 0 ef bf bd ef bf bd 0 0 ef bf bd 58 0 0 78 ef bf bd 0 0 0 2 0 0 39 5d 0 0 65 7e 0 0 0 0 0 0 0 2 0 0 65 7e 0 0 21 ef bf bd 0 0 ef bf bd 13 0 0 39 5d 0 0 0 1 0 0 0 2 0 0 39 5d ef bf bd ef bf bd ef bf bd ef bf bd 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 d 0 44 0 49 0 41 0 47 0 52 0 41 0 4d 0 53 0 5f 0 54 0 52 0 45 0 45 0 0 ef bf bd ef bf bd 0 0 0 8 0 0 0 0 0 0 0 1 0 0 0 f 0 0 0 4 0 0 0 4 0 0 0 8 0 0 1 68 0 0 1 ef bf bd 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 4 0 0 ef bf bd ef bf bd 0 0 0 2 0 0 0 0 0 0 0 0 0 0 4 ef bf bd 0 0 3 7f 0 0 0 8 0 0 0 0 0 0 65 7e 0 0 0 5 0 0 4 2a 0 0 ef bf bd 36 0 0 ef bf bd ef bf bd 0 0 ef bf bd 58 0 0 78 ef bf bd 0 0 0 2 0 0 39 5d 0 0 65 7e 0 0 0 0 0 0 0 2 0 0 65 7e 0 0 21 ef bf bd 0 0 ef bf bd 13 0 0 39 5d 0 0 0 1 0 0 0 2 0 0 39 5d ef bf bd ef bf bd ef bf bd ef bf bd 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 a 0 50 0 52 0 4f 0 50 0 45 0 52 0 54 0 49 0 45 0 53 0 0 ef bf bd ef bf bd 0 0 0 8 0 0 0 1 0 0 0 1 0 0 0 f 0 0 0 4 0 0 0 4 0 0 0 8 0 0 1 68 0 0 1 ef bf bd 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 4 0 0 ef bf bd ef bf bd 0 0 0 2 0 0 0 0 0 0 0 0 0 0 4 ef bf bd 0 0 3 7f 0 0 0 8 0 0 0 0 0 0 21 ef bf bd 0 0 0 3 0 0 3d ef bf bd 0 0 ef bf bd 65 0 0 ef bf bd ef bf bd 0 0 0 2 0 0 39 5d 0 0 21 ef bf bd 0 0 0 0 0 0 0 2 0 0 65 7e 0 0 21 ef bf bd 0 0 ef bf bd 13 0 0 39 5d 0 0 0 1 0 0 0 2 0 0 39 5d ef bf bd ef bf bd ef bf bd ef bf bd 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 d 0 44 0 4f 0 43 0 55 0 4d 0 45 0 4e 0 54 0 41 0 54 0 49 0 4f 0 4e 0 0 ef bf bd 65 0 0 0 8 0 0 0 1 0 0 0 1 0 0 0 f 0 0 0 4 0 0 0 4 0 0 0 8 0 0 1 68 0 0 1 ef bf bd 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 4 0 0 ef bf bd 65 0 0 0 2 0 0 0 0 0 0 0 0 0 0 4 ef bf bd 0 0 3 7f 0 0 0 8 0 0 0 0 0 0 21 ef bf bd 0 0 0 3 0 0 3d ef bf bd 0 0 ef bf bd 65 0 0 ef bf bd ef bf bd 0 0 0 2 0 0 39 5d 0 0 21 ef bf bd 0 0 0 0 0 0 0 2 0 0 65 7e 0 0 21 ef bf bd 0 0 ef bf bd 13 0 0 39 5d 0 0 0 1 0 0 0 2 0 0 39 5d ef bf bd ef bf bd ef bf bd ef bf bd 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 c 0 5a 0 4f 0 4f 0 4d 0 5f 0 43 0 4f 0 4e 0 54 0 52 0 4f 0 4c 0 0 3d ef bf bd 0 0 0 8 0 0 0 1 0 0 0 1 0 0 0 f 0 0 0 4 0 0 0 4 0 0 0 8 0 0 1 68 0 0 1 ef bf bd 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 4 0 0 3d ef bf bd 0 0 0 2 0 0 0 0 0 0 0 0 0 0 4 ef bf bd 0 0 3 7f 0 0 0 8 0 0 0 0 0 0 21 ef bf bd 0 0 0 3 0 0 3d ef bf bd 0 0 ef bf bd 65 0 0 ef bf bd ef bf bd 0 0 0 2 0 0 39 5d 0 0 21 ef bf bd 0 0 0 0 0 0 0 2 0 0 65 7e 0 0 21 ef bf bd 0 0 ef bf bd 13 0 0 39 5d 0 0 0 1 0 0 0 2 0 0 39 5d ef bf bd ef bf bd ef bf bd ef bf bd 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13 0 53 0 45 0 41 0 52 0 43 0 48 0 5f 0 52 0 45 0 53 0 55 0 4c 0 54 0 53 0 5f 0 54 0 52 0 45 0 45 0 0 78 ef bf bd 0 0 0 8 0 0 0 0 0 0 0 1 0 0 0 f 0 0 0 4 0 0 0 4 0 0 0 8 0 0 1 68 0 0 1 ef bf bd 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 4 0 0 78 ef bf bd 0 0 0 2 0 0 0 0 0 0 0 0 0 0 4 ef bf bd 0 0 3 7f 0 0 0 8 0 0 0 0 0 0 65 7e 0 0 0 5 0 0 4 2a 0 0 ef bf bd 36 0 0 ef bf bd ef bf bd 0 0 ef bf bd 58 0 0 78 ef bf bd 0 0 0 2 0 0 39 5d 0 0 65 7e 0 0 0 0 0 0 0 2 0 0 65 7e 0 0 21 ef bf bd 0 0 ef bf bd 13 0 0 39 5d 0 0 0 1 0 0 0 2 0 0 39 5d ef bf bd ef bf bd ef bf bd ef bf bd 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 0 43 0 4f 0 4e 0 54 0 41 0 49 0 4e 0 4d 0 45 0 4e 0 54 0 5f 0 54 0 52 0 45 0 45 0 0 4 2a 0 0 0 8 0 0 0 0 0 0 0 1 0 0 0 f 0 0 0 4 0 0 0 4 0 0 0 8 0 0 1 68 0 0 1 ef bf bd 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 4 0 0 4 2a 0 0 0 2 0 0 0 0 0 0 0 0 0 0 4 ef bf bd 0 0 3 7f 0 0 0 8 0 0 0 0 0 0 65 7e 0 0 0 5 0 0 4 2a 0 0 ef bf bd 36 0 0 ef bf bd ef bf bd 0 0 ef bf bd 58 0 0 78 ef bf bd 0 0 0 2 0 0 39 5d 0 0 65 7e 0 0 0 0 0 0 0 2 0 0 65 7e 0 0 21 ef bf bd 0 0 ef bf bd 13 0 0 39 5d 0 0 0 1 0 0 0 2 0 0 39 5d ef bf bd ef bf bd ef bf bd ef bf bd 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 0 49 0 4e 0 48 0 45 0 52 0 49 0 54 0 41 0 4e 0 43 0 45 0 5f 0 54 0 52 0 45 0 45 0 0 ef bf bd 36 0 0 0 8 0 0 0 0 0 0 0 1 0 0 0 f 0 0 0 4 0 0 0 4 0 0 0 8 0 0 1 68 0 0 1 ef bf bd 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 4 0 0 ef bf bd 36 0 0 0 2 0 0 0 0 0 0 0 0 0 0 4 ef bf bd 0 0 3 7f 0 0 0 8 0 0 0 0 0 0 65 7e 0 0 0 5 0 0 4 2a 0 0 ef bf bd 36 0 0 ef bf bd ef bf bd 0 0 ef bf bd 58 0 0 78 ef bf bd 0 0 0 2 0 0 39 5d 0 0 65 7e 0 0 0 0 0 0 0 2 0 0 65 7e 0 0 21 ef bf bd 0 0 ef bf bd 13 0 0 39 5d 0 0 0 1 0 0 0 2 0 0 39 5d ef bf bd ef bf bd ef bf bd ef bf bd 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 63 0 0 0 0 0 0 ef bf bd a 0 0 0 1 0 0 4 63 0 0 0 1 0 0 ef bf bd 13 0 0 0 2 0 0 4 63 0 0 0 0 0 0 39 5d 0 0 0 2 0 0 4 64 0 0 65 7e 0 0 0 5 0 0 4 65 0 0 0 10 0 43 0 4f 0 4e 0 54 0 41 0 49 0 4e 0 4d 0 45 0 4e 0 54 0 5f 0 54 0 52 0 45 0 45 0 0 4 65 0 0 0 10 0 49 0 4e 0 48 0 45 0 52 0 49 0 54 0 41 0 4e 0 43 0 45 0 5f 0 54 0 52 0 45 0 45 0 0 4 65 0 0 0 d 0 44 0 49 0 41 0 47 0 52 0 41 0 4d 0 53 0 5f 0 54 0 52 0 45 0 45 0 0 4 65 0 0 0 f 0 45 0 58 0 54 0 45 0 4e 0 53 0 49 0 4f 0 4e 0 53 0 5f 0 54 0 52 0 45 0 45 0 0 4 65 0 0 0 13 0 53 0 45 0 41 0 52 0 43 0 48 0 5f 0 52 0 45 0 53 0 55 0 4c 0 54 0 53 0 5f 0 54 0 52 0 45 0 45 0 0 1 68 0 0 1 ef bf bd 0 0 0 0 0 0 4 64 0 0 21 ef bf bd 0 0 0 3 0 0 4 65 0 0 0 c 0 5a 0 4f 0 4f 0 4d 0 5f 0 43 0 4f 0 4e 0 54 0 52 0 4f 0 4c 0 0 4 65 0 0 0 d 0 44 0 4f 0 43 0 55 0 4d 0 45 0 4e 0 54 0 41 0 54 0 49 0 4f 0 4e 0 0 4 65 0 0 0 a 0 50 0 52 0 4f 0 50 0 45 0 52 0 54 0 49 0 45 0 53 0 0 1 68 0 0 1 ef bf bd 0 0 0 0 0 0 1 68 0 0 3 4 0 0 4 66 0 0 0 1 0 0 0 18 0 0 0 0 0 0 1 6d 0 0 3 4 0 0 1 6d 0 0 3 4 0 0 0 3 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 f 0 4d 0 45 0 53 0 53 0 41 0 47 0 45 0 53 0 5f 0 57 0 49 0 4e 0 44 0 4f 0 57 </value>
 						<multiline xmi.value='false'/>
 					</mdElement>
 					<mdElement elementClass='StringProperty'>
@@ -3077,7 +3074,7 @@
 					<mdElement elementClass='StringProperty'>
 						<propertyID>INFO_PROPERTY</propertyID>
 						<propertyDescriptionID>INFO_PROPERTY_DESCRIPTION</propertyDescriptionID>
-						<value>5 28 26 70 d 10 1c 33 74 65 37 60 c6 8d c1 c9 6d dd f6 67 81 6e 63 c 66 10 3b df 99 3e 48 b4 51 6b d6 90 89 ca d6 44 70 b7 8f 70 d4 28 76 60 db 57 4d 8c a2 7d 8e ad 3c 86 fc 29 fc 3c 91 7a 3f 54 1f 62 c2 7 </value>
+						<value>b 9 15 13 2e 0 48 9 7a 6 e1 25 80 97 80 27 6c 3e d4 fe 11 4f ae c7 ec 82 5d 3a a9 a0 e6 92 d4 4d 23 53 58 ce 7c 7c e4 f6 ba 97 4d d4 b2 e7 8a cb 7a 2c 91 ed f3 8b 20 b7 b3 94 ff a9 3c d2 9 49 5d d2 51 77 </value>
 						<multiline xmi.value='false'/>
 					</mdElement>
 					<mdElement elementClass='ChoiceProperty'>
@@ -3106,8 +3103,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Abstraction</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926743_451549_34</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926743_817318_35</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796387_252495_2</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_604487_3</parentPropertyManager>
 					<mdElement elementClass='ColorProperty'>
 						<propertyID>STEREOTYPE_COLOR</propertyID>
 						<propertyDescriptionID>STEREOTYPE_COLOR_DESCRIPTION</propertyDescriptionID>
@@ -3158,8 +3155,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Action State</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926744_905546_36</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796387_582484_4</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='BooleanProperty'>
 						<propertyID>SUPPRESS_STATE_ACTIONS</propertyID>
 						<propertyDescriptionID>SUPPRESS_STATE_ACTIONS_DESCRIPTION</propertyDescriptionID>
@@ -3171,8 +3168,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Actor</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926744_212708_38</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796387_210484_6</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='ColorProperty'>
 						<propertyID>FILL_COLOR</propertyID>
 						<propertyDescriptionID>FILL_COLOR_DESCRIPTION</propertyDescriptionID>
@@ -3323,8 +3320,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Artifact</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926744_810754_39</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796388_392082_7</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='ColorProperty'>
 						<propertyID>FILL_COLOR</propertyID>
 						<propertyDescriptionID>FILL_COLOR_DESCRIPTION</propertyDescriptionID>
@@ -3475,8 +3472,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Association</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926745_842654_40</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926743_817318_35</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796388_182830_8</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_604487_3</parentPropertyManager>
 					<mdElement elementClass='ColorProperty'>
 						<propertyID>STEREOTYPE_COLOR</propertyID>
 						<propertyDescriptionID>STEREOTYPE_COLOR_DESCRIPTION</propertyDescriptionID>
@@ -3532,8 +3529,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Binding Dependency</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926745_549949_41</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926743_817318_35</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796389_253830_9</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_604487_3</parentPropertyManager>
 					<mdElement elementClass='ColorProperty'>
 						<propertyID>STEREOTYPE_COLOR</propertyID>
 						<propertyDescriptionID>STEREOTYPE_COLOR_DESCRIPTION</propertyDescriptionID>
@@ -3584,8 +3581,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Call State</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926745_416335_42</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796389_524927_10</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='BooleanProperty'>
 						<propertyID>SUPPRESS_STATE_ACTIONS</propertyID>
 						<propertyDescriptionID>SUPPRESS_STATE_ACTIONS_DESCRIPTION</propertyDescriptionID>
@@ -3597,8 +3594,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Class</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926745_295678_43</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796389_437176_11</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='ColorProperty'>
 						<propertyID>FILL_COLOR</propertyID>
 						<propertyDescriptionID>FILL_COLOR_DESCRIPTION</propertyDescriptionID>
@@ -3749,8 +3746,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Classifier Role</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926746_278548_44</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796389_213660_12</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='ColorProperty'>
 						<propertyID>FILL_COLOR</propertyID>
 						<propertyDescriptionID>FILL_COLOR_DESCRIPTION</propertyDescriptionID>
@@ -3772,8 +3769,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Classifier Role(in Sequence Diagram)</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926746_842446_45</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796389_402379_13</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='ColorProperty'>
 						<propertyID>FILL_COLOR</propertyID>
 						<propertyDescriptionID>FILL_COLOR_DESCRIPTION</propertyDescriptionID>
@@ -3800,16 +3797,16 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Collaboration</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926746_77969_46</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796390_55452_14</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 				</mdElement>
 				<mdElement elementClass='ExtendableManager'>
 					<removable xmi.value='false'/>
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Combined Fragment</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926746_487297_47</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796390_172499_15</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='BooleanProperty'>
 						<propertyID>USE_FILL_COLOR</propertyID>
 						<propertyDescriptionID>USE_FILL_COLOR_DESCRIPTION</propertyDescriptionID>
@@ -3821,8 +3818,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Component</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926746_751682_48</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796390_987946_16</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='BooleanProperty'>
 						<propertyID>SUPPRESS_INTERFACES</propertyID>
 						<propertyDescriptionID>SUPPRESS_INTERFACES_DESCRIPTION</propertyDescriptionID>
@@ -3844,8 +3841,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Component Instance</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926746_58793_49</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796390_844983_17</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='BooleanProperty'>
 						<propertyID>SHOW_OBJECT_CLASS</propertyID>
 						<propertyDescriptionID>SHOW_OBJECT_CLASS_DESCRIPTION</propertyDescriptionID>
@@ -3862,8 +3859,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Concurrent State</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926746_782781_50</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796390_40155_18</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='BooleanProperty'>
 						<propertyID>SUPPRESS_STATE_ACTIONS</propertyID>
 						<propertyDescriptionID>SUPPRESS_STATE_ACTIONS_DESCRIPTION</propertyDescriptionID>
@@ -3880,8 +3877,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Constraint</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926746_130852_51</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926743_817318_35</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796390_888177_19</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_604487_3</parentPropertyManager>
 					<mdElement elementClass='BooleanProperty'>
 						<propertyID>SHOW_NAME</propertyID>
 						<propertyDescriptionID>SHOW_NAME_DESCRIPTION</propertyDescriptionID>
@@ -3912,8 +3909,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Containment</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926747_361511_52</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926743_817318_35</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796390_821074_20</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_604487_3</parentPropertyManager>
 					<mdElement elementClass='ChoiceProperty'>
 						<propertyID>LINK_LINE_STYLE</propertyID>
 						<propertyDescriptionID>LINK_LINE_STYLE_DESCRIPTION</propertyDescriptionID>
@@ -3927,8 +3924,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>ContentShape</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926747_158431_53</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796390_262913_21</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='BooleanProperty'>
 						<propertyID>WRAP_WORDS</propertyID>
 						<propertyDescriptionID>WRAP_WORDS_DESCRIPTION</propertyDescriptionID>
@@ -3945,8 +3942,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>DataType</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926747_950091_54</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796390_74438_22</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='ColorProperty'>
 						<propertyID>FILL_COLOR</propertyID>
 						<propertyDescriptionID>FILL_COLOR_DESCRIPTION</propertyDescriptionID>
@@ -4034,8 +4031,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Decision</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926747_883862_55</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796390_783609_23</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='BooleanProperty'>
 						<propertyID>USE_FILL_COLOR</propertyID>
 						<propertyDescriptionID>USE_FILL_COLOR_DESCRIPTION</propertyDescriptionID>
@@ -4052,8 +4049,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Dependency</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926747_374231_56</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926743_817318_35</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796391_229897_24</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_604487_3</parentPropertyManager>
 					<mdElement elementClass='ColorProperty'>
 						<propertyID>STEREOTYPE_COLOR</propertyID>
 						<propertyDescriptionID>STEREOTYPE_COLOR_DESCRIPTION</propertyDescriptionID>
@@ -4111,8 +4108,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Diagram</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926747_345451_57</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926747_664100_58</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796391_404820_25</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796391_518905_26</parentPropertyManager>
 					<mdElement elementClass='ColorProperty'>
 						<propertyID>DIAGRAM_BACKGROUND_COLOR</propertyID>
 						<propertyDescriptionID>DIAGRAM_BACKGROUND_COLOR_DESCRIPTION</propertyDescriptionID>
@@ -4162,8 +4159,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Diagram Shape</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926748_655083_59</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796391_441333_27</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='BooleanProperty'>
 						<propertyID>SHOW_TAGGED_VALUES</propertyID>
 						<propertyDescriptionID>SHOW_TAGGED_VALUES_DESCRIPTION</propertyDescriptionID>
@@ -4175,8 +4172,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>DiagramInfo</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926748_495892_60</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796391_705695_28</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='ColorProperty'>
 						<propertyID>FILL_COLOR</propertyID>
 						<propertyDescriptionID>FILL_COLOR_DESCRIPTION</propertyDescriptionID>
@@ -4203,8 +4200,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Enumeration</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926748_333608_61</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796391_459077_29</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='ColorProperty'>
 						<propertyID>FILL_COLOR</propertyID>
 						<propertyDescriptionID>FILL_COLOR_DESCRIPTION</propertyDescriptionID>
@@ -4393,8 +4390,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Extend</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926748_872015_62</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926743_817318_35</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796392_736601_30</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_604487_3</parentPropertyManager>
 					<mdElement elementClass='ColorProperty'>
 						<propertyID>STEREOTYPE_COLOR</propertyID>
 						<propertyDescriptionID>STEREOTYPE_COLOR_DESCRIPTION</propertyDescriptionID>
@@ -4452,8 +4449,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Final State</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926749_39509_63</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796392_519883_31</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='BooleanProperty'>
 						<propertyID>USE_FILL_COLOR</propertyID>
 						<propertyDescriptionID>USE_FILL_COLOR_DESCRIPTION</propertyDescriptionID>
@@ -4470,8 +4467,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Generalization</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926749_81322_64</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926743_817318_35</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796392_139559_32</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_604487_3</parentPropertyManager>
 					<mdElement elementClass='ColorProperty'>
 						<propertyID>STEREOTYPE_COLOR</propertyID>
 						<propertyDescriptionID>STEREOTYPE_COLOR_DESCRIPTION</propertyDescriptionID>
@@ -4524,7 +4521,7 @@
 					<extendableByStereotype xmi.value='false'/>
 					<name>Implementation Diagram</name>
 					<propertyManagerID>_9_0_be00301_1102495986564_458307_303</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926749_588427_65</parentPropertyManager>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796392_138253_33</parentPropertyManager>
 					<mdElement elementClass='ChoiceProperty'>
 						<propertyID>LINK_LINE_STYLE</propertyID>
 						<propertyDescriptionID>LINK_LINE_STYLE_DESCRIPTION</propertyDescriptionID>
@@ -4539,8 +4536,8 @@
 					<extendableByDiagram xmi.value='false'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Implementation Diagram</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926749_536869_66</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926749_32665_67</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796392_142923_34</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796392_178518_35</parentPropertyManager>
 					<mdElement elementClass='BooleanProperty'>
 						<propertyID>SUPPRESS_CLASS_OPERATIONS</propertyID>
 						<propertyGroup>OPERATIONS</propertyGroup>
@@ -4555,7 +4552,7 @@
 					<extendableByStereotype xmi.value='false'/>
 					<name>Implementation Diagram</name>
 					<propertyManagerID>_9_0_be00301_1102495862296_461313_216</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926749_661613_68</parentPropertyManager>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796392_639853_36</parentPropertyManager>
 					<mdElement elementClass='ChoiceProperty'>
 						<propertyID>LINK_LINE_STYLE</propertyID>
 						<propertyDescriptionID>LINK_LINE_STYLE_DESCRIPTION</propertyDescriptionID>
@@ -4569,8 +4566,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Include</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926749_497734_69</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926743_817318_35</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796392_655056_37</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_604487_3</parentPropertyManager>
 					<mdElement elementClass='ColorProperty'>
 						<propertyID>STEREOTYPE_COLOR</propertyID>
 						<propertyDescriptionID>STEREOTYPE_COLOR_DESCRIPTION</propertyDescriptionID>
@@ -4628,8 +4625,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Instance</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926749_24746_70</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796393_40734_38</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='BooleanProperty'>
 						<propertyID>SHOW_OBJECT_CLASS</propertyID>
 						<propertyDescriptionID>SHOW_OBJECT_CLASS_DESCRIPTION</propertyDescriptionID>
@@ -4651,16 +4648,16 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Interaction Use</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926749_407645_71</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796393_118710_39</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 				</mdElement>
 				<mdElement elementClass='ExtendableManager'>
 					<removable xmi.value='false'/>
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Interface</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926749_32665_67</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796392_178518_35</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='ColorProperty'>
 						<propertyID>FILL_COLOR</propertyID>
 						<propertyDescriptionID>FILL_COLOR_DESCRIPTION</propertyDescriptionID>
@@ -4816,8 +4813,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Link</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926750_693371_72</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926743_817318_35</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796393_48795_40</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_604487_3</parentPropertyManager>
 					<mdElement elementClass='ColorProperty'>
 						<propertyID>STEREOTYPE_COLOR</propertyID>
 						<propertyDescriptionID>STEREOTYPE_COLOR_DESCRIPTION</propertyDescriptionID>
@@ -4868,16 +4865,16 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Link Attribute</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926750_575234_73</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926743_817318_35</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796394_844305_41</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_604487_3</parentPropertyManager>
 				</mdElement>
 				<mdElement elementClass='ExtendableManager'>
 					<removable xmi.value='false'/>
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Message</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926750_604716_74</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796394_608784_42</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='BooleanProperty'>
 						<propertyID>USE_FILL_COLOR</propertyID>
 						<propertyDescriptionID>USE_FILL_COLOR_DESCRIPTION</propertyDescriptionID>
@@ -4899,8 +4896,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Message(in Sequence Diagram)</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926750_494801_75</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796394_155649_43</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='BooleanProperty'>
 						<propertyID>USE_FILL_COLOR</propertyID>
 						<propertyDescriptionID>USE_FILL_COLOR_DESCRIPTION</propertyDescriptionID>
@@ -4922,8 +4919,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Model</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926751_359740_76</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796394_938820_44</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='ColorProperty'>
 						<propertyID>FILL_COLOR</propertyID>
 						<propertyDescriptionID>FILL_COLOR_DESCRIPTION</propertyDescriptionID>
@@ -4954,8 +4951,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>N-ary Association</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926751_611388_77</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796394_916916_45</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='BooleanProperty'>
 						<propertyID>USE_FIXED_CONNECTION_POINTS</propertyID>
 						<propertyDescriptionID>USE_FIXED_CONNECTION_POINTS_DESCRIPTION</propertyDescriptionID>
@@ -4967,8 +4964,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Node</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926751_444713_78</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796394_213256_46</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='ColorProperty'>
 						<propertyID>FILL_COLOR</propertyID>
 						<propertyDescriptionID>FILL_COLOR_DESCRIPTION</propertyDescriptionID>
@@ -4992,8 +4989,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Node Instance</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926751_616664_79</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796394_917570_47</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='ColorProperty'>
 						<propertyID>FILL_COLOR</propertyID>
 						<propertyDescriptionID>FILL_COLOR_DESCRIPTION</propertyDescriptionID>
@@ -5027,16 +5024,16 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Note</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926751_586174_80</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926751_151585_81</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796394_249289_48</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796394_719591_49</parentPropertyManager>
 				</mdElement>
 				<mdElement elementClass='ExtendableManager'>
 					<removable xmi.value='false'/>
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Note Anchor</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926751_897673_82</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926743_817318_35</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796394_420268_50</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_604487_3</parentPropertyManager>
 					<mdElement elementClass='ChoiceProperty'>
 						<propertyID>LINK_LINE_STYLE</propertyID>
 						<propertyDescriptionID>LINK_LINE_STYLE_DESCRIPTION</propertyDescriptionID>
@@ -5050,29 +5047,29 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Note(with Comment)</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926751_99655_83</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926751_151585_81</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796394_611523_51</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796394_719591_49</parentPropertyManager>
 				</mdElement>
 				<mdElement elementClass='ExtendableManager'>
 					<removable xmi.value='false'/>
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Note(with Constraint)</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926751_173219_84</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926751_151585_81</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796394_10223_52</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796394_719591_49</parentPropertyManager>
 				</mdElement>
 				<mdElement elementClass='ExtendableManager'>
 					<removable xmi.value='false'/>
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Note(with TaggedValue)</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926751_803743_85</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926751_151585_81</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796394_917850_53</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796394_719591_49</parentPropertyManager>
 				</mdElement>
 				<mdElement elementClass='PropertyManager'>
 					<name>Notes</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926751_151585_81</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796394_719591_49</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='ColorProperty'>
 						<propertyID>FILL_COLOR</propertyID>
 						<propertyDescriptionID>FILL_COLOR_DESCRIPTION</propertyDescriptionID>
@@ -5099,8 +5096,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Object</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926751_189678_86</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796395_701440_54</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='BooleanProperty'>
 						<propertyID>SHOW_OBJECT_CLASS</propertyID>
 						<propertyDescriptionID>SHOW_OBJECT_CLASS_DESCRIPTION</propertyDescriptionID>
@@ -5122,8 +5119,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>ObjectFlow State</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926751_609304_87</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796395_791297_55</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='BooleanProperty'>
 						<propertyID>SHOW_OBJECT_CLASS</propertyID>
 						<propertyDescriptionID>SHOW_OBJECT_CLASS_DESCRIPTION</propertyDescriptionID>
@@ -5140,8 +5137,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Package</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926751_94073_88</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796395_792124_56</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='ColorProperty'>
 						<propertyID>FILL_COLOR</propertyID>
 						<propertyDescriptionID>FILL_COLOR_DESCRIPTION</propertyDescriptionID>
@@ -5172,8 +5169,8 @@
 					<extendableByDiagram xmi.value='false'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Paths</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926743_817318_35</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926747_664100_58</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796387_604487_3</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796391_518905_26</parentPropertyManager>
 					<mdElement elementClass='BooleanProperty'>
 						<propertyID>USE_FILL_COLOR</propertyID>
 						<propertyDescriptionID>USE_FILL_COLOR_DESCRIPTION</propertyDescriptionID>
@@ -5192,8 +5189,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Permission</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926752_655756_89</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926743_817318_35</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796395_220219_57</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_604487_3</parentPropertyManager>
 					<mdElement elementClass='ColorProperty'>
 						<propertyID>STEREOTYPE_COLOR</propertyID>
 						<propertyDescriptionID>STEREOTYPE_COLOR_DESCRIPTION</propertyDescriptionID>
@@ -5244,8 +5241,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Pin</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926752_845455_90</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796395_845121_58</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='BooleanProperty'>
 						<propertyID>AUTOSIZE</propertyID>
 						<propertyDescriptionID>AUTOSIZE_DESCRIPTION</propertyDescriptionID>
@@ -5267,8 +5264,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Port</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926752_537160_91</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796395_716509_59</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='BooleanProperty'>
 						<propertyID>SHOW_NAME</propertyID>
 						<propertyDescriptionID>SHOW_NAME_DESCRIPTION</propertyDescriptionID>
@@ -5285,8 +5282,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Pseudo State</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926752_556420_92</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796395_619601_60</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='BooleanProperty'>
 						<propertyID>USE_FILL_COLOR</propertyID>
 						<propertyDescriptionID>USE_FILL_COLOR_DESCRIPTION</propertyDescriptionID>
@@ -5303,8 +5300,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Realization</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926749_661613_68</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926743_817318_35</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796392_639853_36</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_604487_3</parentPropertyManager>
 					<mdElement elementClass='ColorProperty'>
 						<propertyID>STEREOTYPE_COLOR</propertyID>
 						<propertyDescriptionID>STEREOTYPE_COLOR_DESCRIPTION</propertyDescriptionID>
@@ -5355,8 +5352,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Role</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926752_517775_93</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796396_617863_61</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='BooleanProperty'>
 						<propertyID>USE_FILL_COLOR</propertyID>
 						<propertyDescriptionID>USE_FILL_COLOR_DESCRIPTION</propertyDescriptionID>
@@ -5383,8 +5380,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Separator</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926752_316466_94</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796396_512641_62</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='ColorProperty'>
 						<propertyID>FILL_COLOR</propertyID>
 						<propertyDescriptionID>FILL_COLOR_DESCRIPTION</propertyDescriptionID>
@@ -5425,8 +5422,8 @@
 					<extendableByDiagram xmi.value='false'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Shapes</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926744_724342_37</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926747_664100_58</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796387_864814_5</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796391_518905_26</parentPropertyManager>
 					<mdElement elementClass='BooleanProperty'>
 						<propertyID>AUTOSIZE</propertyID>
 						<propertyDescriptionID>AUTOSIZE_DESCRIPTION</propertyDescriptionID>
@@ -5492,8 +5489,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Signal Classifier</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926753_305275_95</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796396_201454_63</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='ColorProperty'>
 						<propertyID>FILL_COLOR</propertyID>
 						<propertyDescriptionID>FILL_COLOR_DESCRIPTION</propertyDescriptionID>
@@ -5644,8 +5641,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>SignalRS</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926753_386084_96</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796397_91367_64</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='BooleanProperty'>
 						<propertyID>WRAP_WORDS</propertyID>
 						<propertyDescriptionID>WRAP_WORDS_DESCRIPTION</propertyDescriptionID>
@@ -5669,8 +5666,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>State</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926753_795151_97</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796397_626627_65</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='BooleanProperty'>
 						<propertyID>SUPPRESS_STATE_ACTIONS</propertyID>
 						<propertyDescriptionID>SUPPRESS_STATE_ACTIONS_DESCRIPTION</propertyDescriptionID>
@@ -5687,8 +5684,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Stereotype</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926753_312970_98</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796397_211955_66</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='BooleanProperty'>
 						<propertyID>SUPPRESS_TAGS</propertyID>
 						<propertyDescriptionID>SUPPRESS_TAGS_DESCRIPTION</propertyDescriptionID>
@@ -5710,16 +5707,16 @@
 					<extendableByDiagram xmi.value='false'/>
 					<extendableByStereotype xmi.value='true'/>
 					<name>Stereotypes</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926753_748079_99</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926747_664100_58</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796397_818125_67</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796391_518905_26</parentPropertyManager>
 				</mdElement>
 				<mdElement elementClass='ExtendableManager'>
 					<removable xmi.value='false'/>
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Stimulus</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926753_654283_100</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796397_360344_68</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='BooleanProperty'>
 						<propertyID>USE_FILL_COLOR</propertyID>
 						<propertyDescriptionID>USE_FILL_COLOR_DESCRIPTION</propertyDescriptionID>
@@ -5736,16 +5733,16 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Stub State</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926753_544929_101</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796397_687397_69</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 				</mdElement>
 				<mdElement elementClass='ExtendableManager'>
 					<removable xmi.value='false'/>
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Subactivity State</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926754_283811_102</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796397_200314_70</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='BooleanProperty'>
 						<propertyID>SUPPRESS_STATE_ACTIONS</propertyID>
 						<propertyDescriptionID>SUPPRESS_STATE_ACTIONS_DESCRIPTION</propertyDescriptionID>
@@ -5757,8 +5754,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Submachine State</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926754_181654_103</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796397_939875_71</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='BooleanProperty'>
 						<propertyID>SUPPRESS_STATE_ACTIONS</propertyID>
 						<propertyDescriptionID>SUPPRESS_STATE_ACTIONS_DESCRIPTION</propertyDescriptionID>
@@ -5775,8 +5772,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Subsystem</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926754_240760_104</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796397_444955_72</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='ColorProperty'>
 						<propertyID>FILL_COLOR</propertyID>
 						<propertyDescriptionID>FILL_COLOR_DESCRIPTION</propertyDescriptionID>
@@ -5893,8 +5890,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Subsystem Instance</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926754_672086_105</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796398_205896_73</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='BooleanProperty'>
 						<propertyID>SHOW_OBJECT_CLASS</propertyID>
 						<propertyDescriptionID>SHOW_OBJECT_CLASS_DESCRIPTION</propertyDescriptionID>
@@ -5911,8 +5908,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Swimlane</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926754_336319_106</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796398_473081_74</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='BooleanProperty'>
 						<propertyID>USE_FILL_COLOR</propertyID>
 						<propertyDescriptionID>USE_FILL_COLOR_DESCRIPTION</propertyDescriptionID>
@@ -5924,7 +5921,7 @@
 					<extendableByDiagram xmi.value='false'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Symbol</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926747_664100_58</propertyManagerID>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796391_518905_26</propertyManagerID>
 					<mdElement elementClass='ColorProperty'>
 						<propertyID>FILL_COLOR</propertyID>
 						<propertyDescriptionID>FILL_COLOR_DESCRIPTION</propertyDescriptionID>
@@ -5958,8 +5955,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Synch State</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926754_376882_107</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796398_390542_75</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='BooleanProperty'>
 						<propertyID>USE_FILL_COLOR</propertyID>
 						<propertyDescriptionID>USE_FILL_COLOR_DESCRIPTION</propertyDescriptionID>
@@ -5976,8 +5973,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Synchronization Bar</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926754_201860_108</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796398_66347_76</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='ChoiceProperty'>
 						<propertyID>SYNCH_BAR_ORIENTATION</propertyID>
 						<propertyDescriptionID>SYNCH_BAR_ORIENTATION_DESCRIPTION</propertyDescriptionID>
@@ -5991,8 +5988,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>TextBox</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926755_281299_109</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796398_194463_77</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='BooleanProperty'>
 						<propertyID>WRAP_WORDS</propertyID>
 						<propertyDescriptionID>WRAP_WORDS_DESCRIPTION</propertyDescriptionID>
@@ -6019,8 +6016,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Transition</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926755_643594_110</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926743_817318_35</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796398_47608_78</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_604487_3</parentPropertyManager>
 					<mdElement elementClass='ColorProperty'>
 						<propertyID>STEREOTYPE_COLOR</propertyID>
 						<propertyDescriptionID>STEREOTYPE_COLOR_DESCRIPTION</propertyDescriptionID>
@@ -6071,8 +6068,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Transition Connector</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926755_415609_111</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796399_398382_79</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='BooleanProperty'>
 						<propertyID>USE_FIXED_CONNECTION_POINTS</propertyID>
 						<propertyDescriptionID>USE_FIXED_CONNECTION_POINTS_DESCRIPTION</propertyDescriptionID>
@@ -6089,8 +6086,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Tree</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926755_395591_112</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796399_836164_80</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='BooleanProperty'>
 						<propertyID>USE_FILL_COLOR</propertyID>
 						<propertyDescriptionID>USE_FILL_COLOR_DESCRIPTION</propertyDescriptionID>
@@ -6102,8 +6099,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Usage</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926749_588427_65</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926743_817318_35</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796392_138253_33</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_604487_3</parentPropertyManager>
 					<mdElement elementClass='ColorProperty'>
 						<propertyID>STEREOTYPE_COLOR</propertyID>
 						<propertyDescriptionID>STEREOTYPE_COLOR_DESCRIPTION</propertyDescriptionID>
@@ -6154,8 +6151,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Use Case</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926755_915850_113</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796399_116070_81</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='ColorProperty'>
 						<propertyID>FILL_COLOR</propertyID>
 						<propertyDescriptionID>FILL_COLOR_DESCRIPTION</propertyDescriptionID>
@@ -6188,8 +6185,8 @@
 					<extendableByDiagram xmi.value='false'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Use Case Diagram</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926755_47585_114</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926745_842654_40</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796399_209053_82</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796392_639853_36</parentPropertyManager>
 					<mdElement elementClass='ChoiceProperty'>
 						<propertyID>LINK_LINE_STYLE</propertyID>
 						<propertyDescriptionID>LINK_LINE_STYLE_DESCRIPTION</propertyDescriptionID>
@@ -6204,8 +6201,8 @@
 					<extendableByDiagram xmi.value='false'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Use Case Diagram</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926755_327944_115</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926749_81322_64</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796400_145027_83</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796392_139559_32</parentPropertyManager>
 					<mdElement elementClass='ChoiceProperty'>
 						<propertyID>LINK_LINE_STYLE</propertyID>
 						<propertyDescriptionID>LINK_LINE_STYLE_DESCRIPTION</propertyDescriptionID>
@@ -6220,8 +6217,8 @@
 					<extendableByDiagram xmi.value='false'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Use Case Diagram</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926755_805005_116</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926749_661613_68</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796400_155609_84</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796388_182830_8</parentPropertyManager>
 					<mdElement elementClass='ChoiceProperty'>
 						<propertyID>LINK_LINE_STYLE</propertyID>
 						<propertyDescriptionID>LINK_LINE_STYLE_DESCRIPTION</propertyDescriptionID>
@@ -6235,8 +6232,8 @@
 					<extendableByDiagram xmi.value='true'/>
 					<extendableByStereotype xmi.value='false'/>
 					<name>Use Case Instance</name>
-					<propertyManagerID>_9_5_1_1ff104dd_1391528926756_787315_117</propertyManagerID>
-					<parentPropertyManager>_9_5_1_1ff104dd_1391528926744_724342_37</parentPropertyManager>
+					<propertyManagerID>_9_5_1_1ff104dd_1391624796400_324777_85</propertyManagerID>
+					<parentPropertyManager>_9_5_1_1ff104dd_1391624796387_864814_5</parentPropertyManager>
 					<mdElement elementClass='BooleanProperty'>
 						<propertyID>SHOW_OBJECT_CLASS</propertyID>
 						<propertyDescriptionID>SHOW_OBJECT_CLASS_DESCRIPTION</propertyDescriptionID>

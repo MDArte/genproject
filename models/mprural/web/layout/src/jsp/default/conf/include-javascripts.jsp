@@ -29,4 +29,5 @@ Adicionar javascript usando o seguinte formato:
 <script type="text/javascript" language="Javascript1.1" src="/mprural/layout/${layout}/javaScripts/bootstrap.min.js"></script>
 <script type="text/javascript" language="Javascript1.1" src="/mprural/layout/${layout}/javaScripts/bootstrap-datepicker.js"></script>
 
-<script type="text/javascript" language="Javascript1.1" src="/mprural/layout/${layout}/javaScripts/codemirror.js"></script>
+<script type="text/javascript" language="Javascript1.1" charset="utf-8" src="/mprural/layout/${layout}/javaScripts/codemirror.js"></script>
+<script type="text/javascript" language="Javascript1.1" src="/mprural/layout/${layout}/javaScripts/clike.js"></script>
