@@ -12,6 +12,7 @@ import br.ufrrj.maratona.ServiceLocator;
 import br.ufrrj.maratona.cd.Aluno;
 import br.ufrrj.maratona.cd.AlunoImpl;
 import br.ufrrj.maratona.cd.Resolucao;
+import br.ufrrj.maratona.util.Util;
 import br.ufrrj.maratona.vo.ProblemaVO;
 import br.ufrrj.maratona.vo.ResolucaoVO;
 
@@ -33,7 +34,7 @@ public class DetalhaAlunoControleImpl extends DetalhaAlunoControle
         
         Collection alunos = ServiceLocator.instance().getMaratonaHandlerBI().selectAluno(aluno);
         
-        if(alunos != null && !alunos.isEmpty())
+        if(!Util.checkEmpty(alunos))
             aluno = (Aluno) alunos.iterator().next();
         
         form.setNome(aluno.getNome());

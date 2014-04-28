@@ -17,6 +17,7 @@ import br.ufrrj.maratona.cd.Aluno;
 import br.ufrrj.maratona.cd.AlunoImpl;
 import br.ufrrj.maratona.cd.Resolucao;
 import br.ufrrj.maratona.cd.ResolucaoImpl;
+import br.ufrrj.maratona.util.Util;
 import br.ufrrj.maratona.vo.AlunoVO;
 
 /**
@@ -37,20 +38,20 @@ public class DetalhaResolucaoControleImpl extends DetalhaResolucaoControle
     	
     	Collection resolucoes = ServiceLocator.instance().getMaratonaHandlerBI().selectResolucao(resolucao);
     	
-		if(resolucoes != null && !resolucoes.isEmpty())
+		if(!Util.checkEmpty(resolucoes))
     		resolucao  = (Resolucao) resolucoes.iterator().next();
 		
 		form.setData(new SimpleDateFormat("dd/MM/yyyy").format(resolucao.getData()));
 		form.setUrl(resolucao.getProblema().getUrl());
 		form.setResolucao(resolucao.getCodigo());
-		form.setDificuldade(resolucao.getDificuldade().getInternationalizationKey());
+		form.setDificuldade(resolucao.getDificuldade().getValue());
 		
 		AlunoVO alunoVO = new AlunoVO();
 		alunoVO.setIdResolucao(form.getIdResolucao());
 		
 		Collection alunos = ServiceLocator.instance().getMaratonaHandlerBI().filterAluno(new AlunoImpl(), new FilterAction(alunoVO, null));
 		
-		if(resolucoes != null && !resolucoes.isEmpty())
+		if(!Util.checkEmpty(resolucoes))
 		{
     		Aluno aluno = (Aluno) alunos.iterator().next();
     		

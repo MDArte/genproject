@@ -91,7 +91,7 @@ public class AlunoDAOImpl extends AlunoDAO
 					AlunoVO alunoVO = new AlunoVO();
 					alunoVO.setIdAluno((Long) result[0]);
 					alunoVO.setNome((String) result[1]);
-					alunoVO.setQuantidadeProblemasResolvidos((Integer) result[2]);
+					alunoVO.setQuantidadeProblemasResolvidos(((Long) result[2]).intValue());
 					
 					vos.add(alunoVO);
 				}

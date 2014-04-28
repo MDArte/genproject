@@ -14,5 +14,6 @@ Adicionar css usando o seguinte formato:
 <link rel="stylesheet" type="text/css" media="screen" href="/mprural/layout/${layout}/css/bootstrap.css"></link>
 <link rel="stylesheet" type="text/css" media="screen" href="/mprural/layout/${layout}/css/style-default.css"></link>
 <link rel="stylesheet" type="text/css" media="screen" href="/mprural/layout/${layout}/css/datepicker.css"></link>
+<link rel="stylesheet" type="text/css" media="screen" href="/mprural/layout/${layout}/css/style-default.css"></link>
 
 <link rel="stylesheet" type="text/css" media="screen" href="/mprural/layout/${layout}/css/codemirror.css"></link>
